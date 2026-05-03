@@ -1,0 +1,8 @@
+[build]
+  publish = "."
+
+# Netlify serves / from index.html; keep old path working if bookmarked.
+[[redirects]]
+  from = "/preview.html"
+  to = "/"
+  status = 301

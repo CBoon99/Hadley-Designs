@@ -6,11 +6,11 @@ This repository holds a **single-file interactive presentation** built for a cli
 
 ## What’s inside
 
-- `preview.html` — self-contained HTML/CSS/JS (open in a browser; no build step).
+- `index.html` — self-contained HTML/CSS/JS (open in a browser; no build step). Netlify and most static hosts use this as the site root at `/`.
 
 ## How to view
 
-Open `preview.html` in any modern desktop or mobile browser, or serve the folder with any static file server if you prefer not to use `file://` URLs.
+Open `index.html` locally, or deploy the repo root as a static site (publish directory: **`.`** / project root). `/preview.html` redirects to `/` for old bookmarks.
 
 ## License & use
 
